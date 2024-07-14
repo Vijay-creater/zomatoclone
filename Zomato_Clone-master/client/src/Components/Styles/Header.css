@@ -1,0 +1,41 @@
+.header{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+.header-logo{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    color: rgb(202, 99, 73);
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 35px;
+    padding-left: 10px;
+    top: 4px;
+    left: 50px;
+}
+.user-account{
+    position: absolute;
+    right: 70px;
+    top: 10px;
+}
+.login{
+    background-color: white;
+    border: 1px solid rgb(238, 230, 230);
+}
+.signup{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.login:hover{
+    background-color: rgb(211, 184, 184);
+}
+.signup:hover{
+    background-color: rgb(211, 184, 184);
+}
